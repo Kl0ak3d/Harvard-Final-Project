@@ -2,7 +2,11 @@ const axios = require('axios');
 const fs = require('fs');
 const readline = require('readline');
 const cheerio = require('cheerio');
-const open = require('open');
+import('open').then(open => {
+    // Use open here
+}).catch(err => {
+    console.error('Error occurred while importing open:', err);
+});
 
 // Function to prompt user for input
 function prompt(question) {
