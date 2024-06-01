@@ -17,6 +17,9 @@ body {
 h1 {
   text-align: center;
   color: #333; /* Dark gray color */
+  font-size: 36px; /* Increase font size for "Free the people" */
+  font-family: cursive; /* Apply cursive font for "Free the people" */
+  margin-bottom: 20px; /* Increased margin for better separation */
 }
 
 form {
